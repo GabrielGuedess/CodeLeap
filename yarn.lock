@@ -13779,10 +13779,10 @@ storybook-addon-designs@^6.3.1:
   dependencies:
     "@figspec/react" "^1.0.0"
 
-storybook-addon-pseudo-states@^2.0.0-next.0:
-  version "2.0.0-next.0"
-  resolved "https://registry.yarnpkg.com/storybook-addon-pseudo-states/-/storybook-addon-pseudo-states-2.0.0-next.0.tgz#6ba5df71d70cbbbc94efae6b3db9bead05c5936a"
-  integrity sha512-KvM8FUTsHm+plP2OkgHDE65a8p7c8Dp6H9zvV7RZ38uIJHm8hJ2NZplNLqLv20i/mK6zSq7p6uU98izF/L4UXw==
+storybook-addon-pseudo-states@^2.0.0--canary.47.e181c62.0:
+  version "2.0.0--canary.47.e181c62.0"
+  resolved "https://registry.yarnpkg.com/storybook-addon-pseudo-states/-/storybook-addon-pseudo-states-2.0.0--canary.47.e181c62.0.tgz#87d61e489bea6d45020bdcb160c0c511bfc95e8b"
+  integrity sha512-xLbtBxpbmW8T2DlzgJISjbUmiFCzoyEW3wSUL8wN4jzAq04eTE3URJlH+Ufq44n1lRVGCHAbLntL5iVSnkUiGg==
 
 storybook-dark-mode@^3.0.0:
   version "3.0.0"
