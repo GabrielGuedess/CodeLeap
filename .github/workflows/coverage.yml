@@ -34,7 +34,7 @@ jobs:
         run: yarn
 
       - name: Test
-        run: yarn test
+        run: yarn test -u
 
       - name: Codecov
         uses: codecov/codecov-action@v3
