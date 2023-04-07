@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Button /> should render the button correctly 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: end;
+  -ms-flex-pack: end;
+  justify-content: end;
+  width: 100%;
+  margin-top: 0rem;
+}
+
+.c1 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0.68rem 3rem;
+  font-size: 1.6rem;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  background: #7695EC;
+  border: none;
+  border-radius: 0.8rem;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.c1:disabled {
+  cursor: not-allowed;
+  background: #b1b1b1;
+}
+
+.c1:not(:disabled):is(:hover,:focus) {
+  background: #4972e6;
+}
+
+<div
+  class="c0"
+>
+  <button
+    class="c1"
+  >
+    Button
+  </button>
+</div>
+`;

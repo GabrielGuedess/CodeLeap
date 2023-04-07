@@ -1,0 +1,229 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Content /> should render the content correctly 1`] = `
+.c10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: end;
+  -ms-flex-pack: end;
+  justify-content: end;
+  width: 100%;
+  margin-top: 1.6rem;
+}
+
+.c11 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0.68rem 3rem;
+  font-size: 1.6rem;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  background: #7695EC;
+  border: none;
+  border-radius: 0.8rem;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.c11:disabled {
+  cursor: not-allowed;
+  background: #b1b1b1;
+}
+
+.c11:not(:disabled):is(:hover,:focus) {
+  background: #4972e6;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.c5 {
+  font-size: 1.6rem;
+}
+
+.c6 {
+  width: 100%;
+  padding: 0.8rem 1.12rem;
+  font-size: 1.4rem;
+  border: 1px solid #777777;
+  border-radius: 0.8rem;
+}
+
+.c6::-webkit-input-placeholder {
+  color: #CCCCCC;
+}
+
+.c6::-moz-placeholder {
+  color: #CCCCCC;
+}
+
+.c6:-ms-input-placeholder {
+  color: #CCCCCC;
+}
+
+.c6::placeholder {
+  color: #CCCCCC;
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.c8 {
+  font-size: 1.6rem;
+}
+
+.c9 {
+  resize: vertical;
+  width: 100%;
+  min-height: 7.4rem;
+  padding: 0.8rem 1.12rem;
+  font-size: 1.4rem;
+  border: 1px solid #777777;
+  border-radius: 0.8rem;
+}
+
+.c9::-webkit-input-placeholder {
+  color: #CCCCCC;
+}
+
+.c9::-moz-placeholder {
+  color: #CCCCCC;
+}
+
+.c9:-ms-input-placeholder {
+  color: #CCCCCC;
+}
+
+.c9::placeholder {
+  color: #CCCCCC;
+}
+
+.c2 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #000000;
+}
+
+.c0 {
+  overflow: hidden;
+  background: #FFFFFF;
+  border: 1px solid #CCCCCC;
+  border-radius: 1.6rem;
+  width: 100%;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 2.4rem;
+  width: 100%;
+  padding: 2.4rem;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <h2
+      class="c2"
+      color="primary"
+    >
+      What’s on your mind?
+    </h2>
+    <form
+      class="c3"
+    >
+      <div
+        class="c4"
+      >
+        <label
+          class="c5"
+          for=":r0:"
+        >
+          Title
+        </label>
+        <input
+          class="c6"
+          id=":r0:"
+          placeholder="Hello world"
+        />
+      </div>
+      <div
+        class="c7"
+      >
+        <label
+          class="c8"
+          for=":r1:"
+        >
+          Content
+        </label>
+        <textarea
+          class="c9"
+          id=":r1:"
+          placeholder="Content here"
+        />
+      </div>
+      <div
+        class="c10"
+      >
+        <button
+          class="c11"
+        >
+          create
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
+`;

@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> should render the header correctly 1`] = `
+.c1 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+
+.c0 {
+  width: 100%;
+  padding: 2.7rem 3.7rem;
+  background: #7695EC;
+}
+
+<header
+  class="c0"
+>
+  <h1
+    class="c1"
+    color="secondary"
+  >
+    Title
+  </h1>
+</header>
+`;

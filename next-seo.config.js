@@ -1,10 +1,10 @@
 export default {
   openGraph: {
     type: 'website',
-    locale: 'pt_BR',
-    url: 'https://github.com/GabrielGuedess/nextjs-boilerplate',
-    site_name: 'Boilerplate NextJs',
-    title: 'Boilerplate para projetos NextJs ⭐🚀',
+    locale: 'en',
+    url: 'https://github.com/GabrielGuedess/CodeLeap',
+    site_name: 'CodeLeap | Network',
+    title: 'CodeLeap | Network',
   },
   twitter: {
     handle: '@GabrielRGuedess',

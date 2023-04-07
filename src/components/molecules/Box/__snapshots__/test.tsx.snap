@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Box /> should render the box correctly 1`] = `
+.c0 {
+  overflow: hidden;
+  background: #FFFFFF;
+  border: 1px solid #CCCCCC;
+  border-radius: 1.6rem;
+  width: 100%;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 2.4rem;
+  width: 100%;
+  padding: 2.4rem;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <span>
+      Content
+    </span>
+  </div>
+</div>
+`;

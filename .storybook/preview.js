@@ -8,6 +8,9 @@ import { GlobalStyles } from 'styles/global';
 import { theme } from 'styles/theme';
 
 export const parameters = {
+  backgrounds: {
+    default: 'dark',
+  },
   nextRouter: {
     Provider: RouterContext.Provider,
   },

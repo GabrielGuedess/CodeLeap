@@ -1,10 +1,5 @@
-import { Main } from 'components/Main';
+import { SignInForm } from 'templates/SignInForm';
 
-const Home = () => (
-  <Main
-    title="React Avançado"
-    description="TypeScript, ReactJS, NextJS e Styled Components"
-  />
-);
+const Index = () => <SignInForm />;
 
-export default Home;
+export default Index;

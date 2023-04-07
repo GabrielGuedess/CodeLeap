@@ -1,0 +1,165 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SignIn /> should render the signin correctly 1`] = `
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: end;
+  -ms-flex-pack: end;
+  justify-content: end;
+  width: 100%;
+  margin-top: 1.6rem;
+}
+
+.c7 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0.68rem 3rem;
+  font-size: 1.6rem;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  background: #7695EC;
+  border: none;
+  border-radius: 0.8rem;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.c7:disabled {
+  cursor: not-allowed;
+  background: #b1b1b1;
+}
+
+.c7:not(:disabled):is(:hover,:focus) {
+  background: #4972e6;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.c4 {
+  font-size: 1.6rem;
+}
+
+.c5 {
+  width: 100%;
+  padding: 0.8rem 1.12rem;
+  font-size: 1.4rem;
+  border: 1px solid #777777;
+  border-radius: 0.8rem;
+}
+
+.c5::-webkit-input-placeholder {
+  color: #CCCCCC;
+}
+
+.c5::-moz-placeholder {
+  color: #CCCCCC;
+}
+
+.c5:-ms-input-placeholder {
+  color: #CCCCCC;
+}
+
+.c5::placeholder {
+  color: #CCCCCC;
+}
+
+.c2 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #000000;
+}
+
+.c0 {
+  overflow: hidden;
+  background: #FFFFFF;
+  border: 1px solid #CCCCCC;
+  border-radius: 1.6rem;
+  width: 50rem;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 2.4rem;
+  width: 100%;
+  padding: 2.4rem;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <h1
+      class="c2"
+      color="primary"
+    >
+      Welcome to CodeLeap network!
+    </h1>
+    <form
+      class=""
+    >
+      <div
+        class="c3"
+      >
+        <label
+          class="c4"
+          for=":r0:"
+        >
+          Please enter your username
+        </label>
+        <input
+          aria-label="username"
+          class="c5"
+          id=":r0:"
+          name="username"
+          placeholder="John doe"
+        />
+      </div>
+      <div
+        class="c6"
+      >
+        <button
+          class="c7"
+          disabled=""
+        >
+          enter
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
+`;
