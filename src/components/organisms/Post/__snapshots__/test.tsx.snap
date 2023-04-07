@@ -160,7 +160,7 @@ exports[`<Post /> should render the post correctly 1`] = `
       <span
         class="c8"
       >
-        5 minutes ago
+        an hour ago
       </span>
     </div>
     <span

@@ -276,7 +276,7 @@ exports[`<Home /> should render the home correctly 1`] = `
   padding: 0 2.4rem 2.4rem;
 }
 
-@media (min-width:1170px) {
+@media (min-width:832px) {
   .c0 {
     margin-left: auto;
     margin-right: auto;
@@ -422,7 +422,7 @@ exports[`<Home /> should render the home correctly 1`] = `
           <span
             class="c22"
           >
-            5 minutes ago
+            an hour ago
           </span>
         </div>
         <span

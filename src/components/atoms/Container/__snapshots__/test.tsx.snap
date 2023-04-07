@@ -6,7 +6,7 @@ exports[`<Container /> should render the container correctly 1`] = `
   margin: 0 1.6rem;
 }
 
-@media (min-width:1170px) {
+@media (min-width:832px) {
   .c0 {
     margin-left: auto;
     margin-right: auto;
