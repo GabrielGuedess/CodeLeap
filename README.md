@@ -35,6 +35,7 @@
       <a href="#about-the-project">About The Project</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
+        <li><a href="#lighthouse">Lighthouse</a></li>
         <li><a href="#codecov">Codecov</a></li>
       </ul>
     </li>
@@ -78,9 +79,9 @@ Frameworks/libraries used to initialize the project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- Average Lighthouse Results -->
+<!-- Lighthouse -->
 
-### Average Lighthouse Results
+### Lighthouse
 
 <br />
 
