@@ -7,7 +7,7 @@
 ![CI](https://img.shields.io/github/actions/workflow/status/GabrielGuedess/CodeLeap/ci.yml?label=CI)
 ![Top](https://img.shields.io/github/languages/top/GabrielGuedess/CodeLeap)
 ![Code](https://img.shields.io/github/repo-size/GabrielGuedess/CodeLeap)
-[![wakatime](https://wakatime.com/badge/user/61e5a18d-725a-4cdb-8e21-f86ffc2f24db/project/dd251dd4-0f7a-4fa6-b501-cc2d3f126a25.svg)](https://wakatime.com/badge/user/61e5a18d-725a-4cdb-8e21-f86ffc2f24db/project/dd251dd4-0f7a-4fa6-b501-cc2d3f126a25)
+[![wakatime](https://wakatime.com/badge/github/GabrielGuedess/CodeLeap.svg)](https://wakatime.com/badge/github/GabrielGuedess/CodeLeap)
 
 <!-- PROJECT LOGO -->
 <br />
