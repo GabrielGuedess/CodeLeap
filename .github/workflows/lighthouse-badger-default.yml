@@ -70,6 +70,7 @@ on:
 jobs:
   lighthouse-badger-default:
     runs-on: ubuntu-22.04
+    if: ${{ github.actor != 'github-actions[bot]' }}
     timeout-minutes: 8
     steps:
       - name: Preparatory Tasks
