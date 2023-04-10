@@ -1,7 +1,7 @@
 name: 'Lighthouse-Badger-Default'
 
 env:
-  URLS: 'https://code-leap-gabrielguedess.vercel.app'
+  URLS: 'https://code-leap-gabrielguedess.vercel.app https://code-leap-gabrielguedess.vercel.app/posts'
   TOKEN_NAME: 'LIGHTHOUSE_BADGER_TOKEN'
   REPO_BRANCH: '${{ github.repository }} main'
   BADGES_ARGS: '-b pagespeed -o lighthouse_results -r'
