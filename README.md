@@ -78,6 +78,20 @@ Frameworks/libraries used to initialize the project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- Average Lighthouse Results -->
+
+### Average Lighthouse Results
+
+<br />
+
+<div align="center">
+  <a href="https://codecov.io/gh/GabrielGuedess/CodeLeap">
+    <img src="https://github.com/GabrielGuedess/CodeLeap/blob/main/.github/assets/lighthouse/desktop/pagespeed.svg" />
+  </a>
+</div>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- Codecov -->
 
 ### Codecov
