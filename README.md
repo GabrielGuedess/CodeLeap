@@ -86,10 +86,12 @@ Frameworks/libraries used to initialize the project.
 <br />
 
 <div align="center">
-  <a href="https://codecov.io/gh/GabrielGuedess/CodeLeap">
+  <a href="https://htmlpreview.github.io/?https://github.com/GabrielGuedess/CodeLeap/blob/main/.github/assets/lighthouse/desktop/code_leap_gabrielguedess_vercel_app.html">
     <img src="https://github.com/GabrielGuedess/CodeLeap/blob/main/.github/assets/lighthouse/desktop/pagespeed.svg" />
   </a>
 </div>
+
+<a href="https://htmlpreview.github.io/?https://github.com/GabrielGuedess/CodeLeap/blob/main/.github/assets/lighthouse/desktop/code_leap_gabrielguedess_vercel_app.html">See details</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
