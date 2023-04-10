@@ -1,19 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<SignInForm /> should render the signin form correctly 1`] = `
-.c8 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-  -webkit-justify-content: end;
-  -ms-flex-pack: end;
-  justify-content: end;
-  width: 100%;
-  margin-top: 1.6rem;
-}
-
 .c9 {
   cursor: pointer;
   display: -webkit-box;
@@ -28,27 +15,25 @@ exports[`<SignInForm /> should render the signin form correctly 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  padding: 0.68rem 3rem;
+  width: 12rem;
+  height: 3.2rem;
   font-size: 1.6rem;
+  font-weight: 700;
   color: #FFFFFF;
-  text-transform: uppercase;
-  background: #7695EC;
   border: none;
   border-radius: 0.8rem;
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
+  background: #6084e9;
+}
+
+.c9:not(:disabled):is(:hover,:focus) {
+  background: #3361e3;
 }
 
 .c9:disabled {
   cursor: not-allowed;
-  background: #b1b1b1;
-}
-
-.c9:not(:disabled):is(:hover,:focus) {
-  background: #4972e6;
+  background: #a4a4a4;
 }
 
 .c5 {
@@ -74,6 +59,10 @@ exports[`<SignInForm /> should render the signin form correctly 1`] = `
   border-radius: 0.8rem;
 }
 
+.c7:focus {
+  box-shadow: #B8BEF3 0px 0px 0px 1.5px;
+}
+
 .c7::-webkit-input-placeholder {
   color: #CCCCCC;
 }
@@ -90,7 +79,7 @@ exports[`<SignInForm /> should render the signin form correctly 1`] = `
   color: #CCCCCC;
 }
 
-.c4 {
+.c3 {
   font-size: 2.2rem;
   font-weight: 700;
   color: #000000;
@@ -102,9 +91,6 @@ exports[`<SignInForm /> should render the signin form correctly 1`] = `
   border: 1px solid #CCCCCC;
   border-radius: 1.6rem;
   width: 50rem;
-}
-
-.c3 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -113,8 +99,30 @@ exports[`<SignInForm /> should render the signin form correctly 1`] = `
   -ms-flex-direction: column;
   flex-direction: column;
   gap: 2.4rem;
-  width: 100%;
   padding: 2.4rem;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: end;
+  -ms-flex-pack: end;
+  justify-content: end;
+  width: 100%;
 }
 
 .c0 {
@@ -151,47 +159,43 @@ exports[`<SignInForm /> should render the signin form correctly 1`] = `
   <div
     class="c2"
   >
-    <div
+    <h1
       class="c3"
+      color="primary"
     >
-      <h1
-        class="c4"
-        color="primary"
+      Welcome to CodeLeap network!
+    </h1>
+    <form
+      class="c4"
+    >
+      <div
+        class="c5"
       >
-        Welcome to CodeLeap network!
-      </h1>
-      <form
-        class=""
+        <label
+          class="c6"
+          for=":r0:"
+        >
+          Please enter your username
+        </label>
+        <input
+          aria-label="username"
+          class="c7"
+          id=":r0:"
+          name="username"
+          placeholder="John doe"
+        />
+      </div>
+      <div
+        class="c8"
       >
-        <div
-          class="c5"
+        <button
+          class="c9"
+          disabled=""
         >
-          <label
-            class="c6"
-            for=":r0:"
-          >
-            Please enter your username
-          </label>
-          <input
-            aria-label="username"
-            class="c7"
-            id=":r0:"
-            name="username"
-            placeholder="John doe"
-          />
-        </div>
-        <div
-          class="c8"
-        >
-          <button
-            class="c9"
-            disabled=""
-          >
-            enter
-          </button>
-        </div>
-      </form>
-    </div>
+          ENTER
+        </button>
+      </div>
+    </form>
   </div>
 </main>
 `;

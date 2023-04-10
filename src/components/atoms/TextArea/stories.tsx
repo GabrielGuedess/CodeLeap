@@ -17,3 +17,11 @@ export default {
 } as Meta<TextAreaProps>;
 
 export const Default: StoryFn<TextAreaProps> = args => <TextArea {...args} />;
+
+export const WithErrors: StoryFn<TextAreaProps> = args => (
+  <TextArea {...args} />
+);
+
+WithErrors.args = {
+  errorMessage: 'Invalid Field!',
+};

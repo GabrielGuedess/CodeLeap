@@ -20,10 +20,15 @@ exports[`<TextArea /> should render the text area correctly 1`] = `
   resize: vertical;
   width: 100%;
   min-height: 7.4rem;
+  max-height: 26rem;
   padding: 0.8rem 1.12rem;
   font-size: 1.4rem;
   border: 1px solid #777777;
   border-radius: 0.8rem;
+}
+
+.c2:focus {
+  box-shadow: #B8BEF3 0px 0px 0px 1.5px;
 }
 
 .c2::-webkit-input-placeholder {

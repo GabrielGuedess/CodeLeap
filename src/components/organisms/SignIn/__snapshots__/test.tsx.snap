@@ -1,19 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<SignIn /> should render the signin correctly 1`] = `
-.c6 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-  -webkit-justify-content: end;
-  -ms-flex-pack: end;
-  justify-content: end;
-  width: 100%;
-  margin-top: 1.6rem;
-}
-
 .c7 {
   cursor: pointer;
   display: -webkit-box;
@@ -28,27 +15,25 @@ exports[`<SignIn /> should render the signin correctly 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  padding: 0.68rem 3rem;
+  width: 12rem;
+  height: 3.2rem;
   font-size: 1.6rem;
+  font-weight: 700;
   color: #FFFFFF;
-  text-transform: uppercase;
-  background: #7695EC;
   border: none;
   border-radius: 0.8rem;
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
+  background: #6084e9;
+}
+
+.c7:not(:disabled):is(:hover,:focus) {
+  background: #3361e3;
 }
 
 .c7:disabled {
   cursor: not-allowed;
-  background: #b1b1b1;
-}
-
-.c7:not(:disabled):is(:hover,:focus) {
-  background: #4972e6;
+  background: #a4a4a4;
 }
 
 .c3 {
@@ -74,6 +59,10 @@ exports[`<SignIn /> should render the signin correctly 1`] = `
   border-radius: 0.8rem;
 }
 
+.c5:focus {
+  box-shadow: #B8BEF3 0px 0px 0px 1.5px;
+}
+
 .c5::-webkit-input-placeholder {
   color: #CCCCCC;
 }
@@ -90,7 +79,7 @@ exports[`<SignIn /> should render the signin correctly 1`] = `
   color: #CCCCCC;
 }
 
-.c2 {
+.c1 {
   font-size: 2.2rem;
   font-weight: 700;
   color: #000000;
@@ -102,9 +91,6 @@ exports[`<SignIn /> should render the signin correctly 1`] = `
   border: 1px solid #CCCCCC;
   border-radius: 1.6rem;
   width: 50rem;
-}
-
-.c1 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -113,53 +99,71 @@ exports[`<SignIn /> should render the signin correctly 1`] = `
   -ms-flex-direction: column;
   flex-direction: column;
   gap: 2.4rem;
-  width: 100%;
   padding: 2.4rem;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: end;
+  -ms-flex-pack: end;
+  justify-content: end;
+  width: 100%;
 }
 
 <div
   class="c0"
 >
-  <div
+  <h1
     class="c1"
+    color="primary"
   >
-    <h1
-      class="c2"
-      color="primary"
+    Welcome to CodeLeap network!
+  </h1>
+  <form
+    class="c2"
+  >
+    <div
+      class="c3"
     >
-      Welcome to CodeLeap network!
-    </h1>
-    <form
-      class=""
+      <label
+        class="c4"
+        for=":r0:"
+      >
+        Please enter your username
+      </label>
+      <input
+        aria-label="username"
+        class="c5"
+        id=":r0:"
+        name="username"
+        placeholder="John doe"
+      />
+    </div>
+    <div
+      class="c6"
     >
-      <div
-        class="c3"
+      <button
+        class="c7"
+        disabled=""
       >
-        <label
-          class="c4"
-          for=":r0:"
-        >
-          Please enter your username
-        </label>
-        <input
-          aria-label="username"
-          class="c5"
-          id=":r0:"
-          name="username"
-          placeholder="John doe"
-        />
-      </div>
-      <div
-        class="c6"
-      >
-        <button
-          class="c7"
-          disabled=""
-        >
-          enter
-        </button>
-      </div>
-    </form>
-  </div>
+        ENTER
+      </button>
+    </div>
+  </form>
 </div>
 `;

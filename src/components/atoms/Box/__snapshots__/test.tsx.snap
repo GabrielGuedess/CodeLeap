@@ -7,9 +7,6 @@ exports[`<Box /> should render the box correctly 1`] = `
   border: 1px solid #CCCCCC;
   border-radius: 1.6rem;
   width: 100%;
-}
-
-.c1 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -18,19 +15,14 @@ exports[`<Box /> should render the box correctly 1`] = `
   -ms-flex-direction: column;
   flex-direction: column;
   gap: 2.4rem;
-  width: 100%;
   padding: 2.4rem;
 }
 
 <div
   class="c0"
 >
-  <div
-    class="c1"
-  >
-    <span>
-      Content
-    </span>
-  </div>
+  <span>
+    Content
+  </span>
 </div>
 `;

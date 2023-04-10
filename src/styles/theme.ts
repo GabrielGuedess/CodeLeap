@@ -13,13 +13,17 @@ export const theme = {
   colors: {
     background: '#DDDDDD',
     white: '#FFFFFF',
-    primary: '#7695EC',
+    primary: '#6084e9',
     primaryText: '#000000',
     secondaryText: '#CCCCCC',
     inputBorder: '#777777',
-    username: '#777777',
+    username: '#666666',
+    overlay: '#777777',
     border: '#CCCCCC',
+    boxShadow: '#B8BEF3',
+    borderButton: '#999999',
     red: '#FF5151',
+    green: '#47B960',
   },
   font: {
     family: {

@@ -10,6 +10,7 @@ exports[`<EditButton /> should render the edit button correctly 1`] = `
   class="c0"
 >
   <svg
+    aria-label="Edit Button"
     height="24"
     viewBox="0 0 24 24"
     width="24"

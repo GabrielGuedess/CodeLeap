@@ -26,6 +26,10 @@ export const Input = styled.input<InputProps>`
     border: 1px solid ${hasError ? theme.colors.red : theme.colors.inputBorder};
     border-radius: 0.8rem;
 
+    :focus {
+      box-shadow: ${theme.colors.boxShadow} 0px 0px 0px 1.5px;
+    }
+
     ::placeholder {
       color: ${theme.colors.secondaryText};
     }

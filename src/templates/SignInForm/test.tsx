@@ -5,8 +5,17 @@ import { SignInForm } from '.';
 // eslint-disable-next-line @typescript-eslint/no-var-requires, unicorn/prefer-module
 const useRouter = jest.spyOn(require('next/router'), 'useRouter');
 
+const push = jest.fn();
+let username = '';
+
 useRouter.mockImplementation(() => ({
-  push: jest.fn(),
+  push,
+}));
+
+jest.mock('hooks/useAuth', () => ({
+  useAuth: () => ({
+    username,
+  }),
 }));
 
 describe('<SignInForm />', () => {
@@ -16,5 +25,14 @@ describe('<SignInForm />', () => {
 
     // Assert
     expect(container.firstChild).toMatchSnapshot();
+  });
+
+  it('should change page if user already logged', () => {
+    username = 'GabrielGuedess';
+
+    renderWithTheme(<SignInForm />);
+
+    // Assert
+    expect(push).toHaveBeenCalled();
   });
 });

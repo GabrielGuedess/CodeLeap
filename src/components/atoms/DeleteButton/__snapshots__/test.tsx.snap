@@ -10,6 +10,7 @@ exports[`<DeleteButton /> should render the delete button correctly 1`] = `
   class="c0"
 >
   <svg
+    aria-label="Delete Button"
     height="24"
     viewBox="0 0 24 24"
     width="24"

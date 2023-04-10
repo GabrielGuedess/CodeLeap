@@ -24,6 +24,10 @@ exports[`<Input /> should render the input correctly 1`] = `
   border-radius: 0.8rem;
 }
 
+.c2:focus {
+  box-shadow: #B8BEF3 0px 0px 0px 1.5px;
+}
+
 .c2::-webkit-input-placeholder {
   color: #CCCCCC;
 }

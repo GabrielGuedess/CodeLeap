@@ -5,6 +5,8 @@ import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { z } from 'zod';
 
+import { useAuth } from 'hooks/useAuth';
+
 import { Button } from 'components/atoms/Button';
 import { Input } from 'components/atoms/Input';
 import { Title } from 'components/atoms/Title';
@@ -22,6 +24,8 @@ const usernameSchema = z.object({
 type UsernameSchemaProps = z.infer<typeof usernameSchema>;
 
 export const SignIn = () => {
+  const { signIn } = useAuth();
+
   const {
     register,
     handleSubmit,
@@ -32,7 +36,9 @@ export const SignIn = () => {
 
   const { push } = useRouter();
 
-  const handleUsername = () => {
+  const handleUsername = async (data: UsernameSchemaProps) => {
+    await signIn(data.username);
+
     push('/posts');
   };
 
@@ -49,7 +55,9 @@ export const SignIn = () => {
           {...register('username')}
         />
 
-        <Button disabled={!isDirty} title="enter" hasMargin />
+        <S.WrapperButtons>
+          <Button disabled={!isDirty} title="ENTER" />
+        </S.WrapperButtons>
       </S.Form>
     </S.Wrapper>
   );

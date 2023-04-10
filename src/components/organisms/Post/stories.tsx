@@ -8,8 +8,10 @@ export default {
   component: Post,
   args: {
     username: 'GabrielGuedess',
-    ime: new Date(),
-    text: 'Text',
+    createdAt: new Date(),
+    id: '1',
+    title: 'Title',
+    content: 'Text',
   },
 } as Meta<PostProps>;
 

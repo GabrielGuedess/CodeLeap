@@ -21,6 +21,13 @@ export const parameters = {
   docs: {
     theme: themes.dark,
   },
+  options: {
+    storySort: {
+      method: 'alphabetical',
+      order: ['Atoms', 'Molecules', 'Organisms', 'Templates'],
+      locales: 'en-US',
+    },
+  },
 };
 
 export const decorators = [

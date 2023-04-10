@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Modal /> should render the heading 1`] = `
+.c0 {
+  background: transparent;
+  border: none;
+}
+
+.c0:focus {
+  box-shadow: #B8BEF3 0px 0px 0px 1.5px;
+}
+
+<button
+  aria-controls="radix-:r0:"
+  aria-expanded="true"
+  aria-haspopup="dialog"
+  class="c0"
+  data-state="open"
+  type="button"
+>
+  <h1>
+    click
+  </h1>
+</button>
+`;

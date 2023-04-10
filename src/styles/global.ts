@@ -25,4 +25,14 @@ export const GlobalStyles = createGlobalStyle`
       background: ${theme.colors.background};
     `}
   }
+
+  button, input, textarea, a {
+    ${({ theme }) => css`
+      font-family: ${theme.font.family.primary};
+    `}
+  }
+
+  input, textarea {
+    outline: none;
+  }
 `;

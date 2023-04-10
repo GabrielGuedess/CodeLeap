@@ -17,3 +17,9 @@ export default {
 } as Meta<InputProps>;
 
 export const Default: StoryFn<InputProps> = args => <Input {...args} />;
+
+export const WithErrors: StoryFn<InputProps> = args => <Input {...args} />;
+
+WithErrors.args = {
+  errorMessage: 'Invalid Field!',
+};

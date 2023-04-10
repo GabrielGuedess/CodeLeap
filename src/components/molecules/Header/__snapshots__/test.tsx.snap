@@ -8,9 +8,22 @@ exports[`<Header /> should render the header correctly 1`] = `
 }
 
 .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   width: 100%;
   padding: 2.7rem 3.7rem;
-  background: #7695EC;
+  color: #FFFFFF;
+  background: #6084e9;
+}
+
+.c0 svg {
+  cursor: pointer;
 }
 
 <header
@@ -22,5 +35,46 @@ exports[`<Header /> should render the header correctly 1`] = `
   >
     Title
   </h1>
+  <svg
+    aria-label="sign-out"
+    fill="currentColor"
+    height="32"
+    viewBox="0 0 256 256"
+    width="32"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <rect
+      fill="none"
+      height="256"
+      width="256"
+    />
+    <polyline
+      fill="none"
+      points="174 86 216 128 174 170"
+      stroke="currentColor"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="16"
+    />
+    <line
+      fill="none"
+      stroke="currentColor"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="16"
+      x1="104"
+      x2="216"
+      y1="128"
+      y2="128"
+    />
+    <path
+      d="M104,216H48a8,8,0,0,1-8-8V48a8,8,0,0,1,8-8h56"
+      fill="none"
+      stroke="currentColor"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="16"
+    />
+  </svg>
 </header>
 `;

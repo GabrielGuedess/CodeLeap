@@ -6,9 +6,18 @@ import { Button } from '.';
 export default {
   title: 'Atoms/Button',
   component: Button,
+  argTypes: {
+    isLoading: {
+      type: 'boolean',
+    },
+  },
   args: {
     title: 'Button',
+    isLoading: false,
+    as: 'button',
   },
 } as Meta<ButtonProps>;
 
-export const Default: StoryFn<ButtonProps> = args => <Button {...args} />;
+export const Default: StoryFn<ButtonProps> = (args: ButtonProps) => (
+  <Button {...args} />
+);

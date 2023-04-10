@@ -1,3 +1,6 @@
+/* eslint-disable unicorn/prefer-module */
+/* eslint-disable @typescript-eslint/no-var-requires */
+
 import { act } from 'react-dom/test-utils';
 
 import { fireEvent, screen, waitFor } from '@testing-library/react';
@@ -6,11 +9,18 @@ import { renderWithTheme } from 'utils/tests/helpers';
 
 import { SignIn } from '.';
 
-// eslint-disable-next-line @typescript-eslint/no-var-requires, unicorn/prefer-module
 const useRouter = jest.spyOn(require('next/router'), 'useRouter');
+
+const signInMock = jest.fn();
 
 useRouter.mockImplementation(() => ({
   push: jest.fn(),
+}));
+
+jest.mock('hooks/useAuth', () => ({
+  useAuth: () => ({
+    signIn: signInMock,
+  }),
 }));
 
 describe('<SignIn />', () => {
@@ -38,6 +48,7 @@ describe('<SignIn />', () => {
     // Assert
     waitFor(() => {
       expect(useRouter).toHaveBeenCalled();
+      expect(signInMock).toHaveBeenCalled();
     });
   });
 });

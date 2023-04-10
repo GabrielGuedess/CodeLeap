@@ -63,6 +63,38 @@
       }
     },
     {
+      "files": ["src/helpers/*"],
+      "rules": {
+        "unicorn/filename-case": ["error", { "cases": { "pascalCase": true } }],
+        "@typescript-eslint/naming-convention": "off"
+      }
+    },
+    {
+      "files": ["src/dtos/*"],
+      "rules": {
+        "unicorn/filename-case": "off",
+        "@typescript-eslint/naming-convention": [
+          "error",
+          {
+            "selector": "interface",
+            "format": ["PascalCase"],
+            "custom": {
+              "regex": "[A-Z]*DTO$",
+              "match": true
+            }
+          },
+          {
+            "selector": "typeAlias",
+            "format": ["PascalCase"],
+            "custom": {
+              "regex": "[A-Z]*DTO$",
+              "match": true
+            }
+          }
+        ]
+      }
+    },
+    {
       "files": ["**.js"],
       "rules": {
         "no-undef": "off",
@@ -92,13 +124,18 @@
     "jest/prefer-to-have-length": "warn",
     "react-hooks/exhaustive-deps": "warn",
     "sort-imports": "off",
+    "unicorn/no-null": "off",
+    "no-useless-catch": "off",
     "react/prop-types": "off",
     "react/jsx-no-undef": "off",
+    "no-extra-boolean-cast": "off",
     "node/no-missing-import": "off",
     "node/no-unpublished-import": "off",
     "react/require-default-props": "off",
     "react/jsx-props-no-spreading": "off",
+    "unicorn/no-negated-condition": "off",
     "import/prefer-default-export": "off",
+    "react/jsx-no-constructed-context-values": "off",
     "@typescript-eslint/no-non-null-assertion": "off",
     "import/no-duplicates": ["error", { "prefer-inline": true }],
     "arrow-body-style": ["error", "as-needed"],
@@ -191,9 +228,13 @@
           "/^components/",
           "/^services/",
           "/^lib/",
+          "/^functions/",
           "/^dtos/",
+          "/^helpers/",
           "/^utils/",
           "/^assets/",
+          "/^constants/",
+          "/^storage/",
           "/^styles/",
           ["parent", "sibling", "index"]
         ],

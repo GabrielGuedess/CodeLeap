@@ -10,8 +10,6 @@ module.exports = {
     '@storybook/addon-toolbars',
     '@storybook/addon-links',
     '@storybook/addon-a11y',
-    'storybook-addon-pseudo-states',
-    'storybook-addon-designs',
     'storybook-dark-mode',
   ],
   staticDirs: ['../public'],

@@ -1,38 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Home /> should render the home correctly 1`] = `
-.c3 {
-  font-size: 2.2rem;
-  font-weight: 700;
-  color: #FFFFFF;
-}
-
-.c7 {
-  font-size: 2.2rem;
-  font-weight: 700;
-  color: #000000;
-}
-
-.c2 {
-  width: 100%;
-  padding: 2.7rem 3.7rem;
-  background: #7695EC;
-}
-
-.c15 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-  -webkit-justify-content: end;
-  -ms-flex-pack: end;
-  justify-content: end;
-  width: 100%;
-  margin-top: 1.6rem;
-}
-
-.c16 {
+.c12 {
   cursor: pointer;
   display: -webkit-box;
   display: -webkit-flex;
@@ -46,123 +15,28 @@ exports[`<Home /> should render the home correctly 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  padding: 0.68rem 3rem;
+  width: 12rem;
+  height: 3.2rem;
   font-size: 1.6rem;
+  font-weight: 700;
   color: #FFFFFF;
-  text-transform: uppercase;
-  background: #7695EC;
   border: none;
   border-radius: 0.8rem;
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
+  background: #6084e9;
 }
 
-.c16:disabled {
+.c12:not(:disabled):is(:hover,:focus) {
+  background: #3361e3;
+}
+
+.c12:disabled {
   cursor: not-allowed;
-  background: #b1b1b1;
-}
-
-.c16:not(:disabled):is(:hover,:focus) {
-  background: #4972e6;
-}
-
-.c9 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  gap: 0.8rem;
-}
-
-.c10 {
-  font-size: 1.6rem;
-}
-
-.c11 {
-  width: 100%;
-  padding: 0.8rem 1.12rem;
-  font-size: 1.4rem;
-  border: 1px solid #777777;
-  border-radius: 0.8rem;
-}
-
-.c11::-webkit-input-placeholder {
-  color: #CCCCCC;
-}
-
-.c11::-moz-placeholder {
-  color: #CCCCCC;
-}
-
-.c11:-ms-input-placeholder {
-  color: #CCCCCC;
-}
-
-.c11::placeholder {
-  color: #CCCCCC;
-}
-
-.c12 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  gap: 0.8rem;
-}
-
-.c13 {
-  font-size: 1.6rem;
-}
-
-.c14 {
-  resize: vertical;
-  width: 100%;
-  min-height: 7.4rem;
-  padding: 0.8rem 1.12rem;
-  font-size: 1.4rem;
-  border: 1px solid #777777;
-  border-radius: 0.8rem;
-}
-
-.c14::-webkit-input-placeholder {
-  color: #CCCCCC;
-}
-
-.c14::-moz-placeholder {
-  color: #CCCCCC;
-}
-
-.c14:-ms-input-placeholder {
-  color: #CCCCCC;
-}
-
-.c14::placeholder {
-  color: #CCCCCC;
-}
-
-.c19 {
-  cursor: pointer;
-  color: #FFFFFF;
+  background: #a4a4a4;
 }
 
 .c5 {
-  overflow: hidden;
-  background: #FFFFFF;
-  border: 1px solid #CCCCCC;
-  border-radius: 1.6rem;
-  width: 100%;
-}
-
-.c6 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -170,39 +44,39 @@ exports[`<Home /> should render the home correctly 1`] = `
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  gap: 2.4rem;
-  width: 100%;
-  padding: 2.4rem;
+  gap: 0.8rem;
 }
 
-.c17 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  width: 100%;
-  padding: 2.7rem 3.7rem;
-  background: #7695EC;
+.c6 {
+  font-size: 1.6rem;
 }
 
-.c18 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 2.38rem;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+.c7 {
+  width: 100%;
+  padding: 0.8rem 1.12rem;
+  font-size: 1.4rem;
+  border: 1px solid #777777;
+  border-radius: 0.8rem;
+}
+
+.c7:focus {
+  box-shadow: #B8BEF3 0px 0px 0px 1.5px;
+}
+
+.c7::-webkit-input-placeholder {
+  color: #CCCCCC;
+}
+
+.c7::-moz-placeholder {
+  color: #CCCCCC;
+}
+
+.c7:-ms-input-placeholder {
+  color: #CCCCCC;
+}
+
+.c7::placeholder {
+  color: #CCCCCC;
 }
 
 .c8 {
@@ -213,38 +87,48 @@ exports[`<Home /> should render the home correctly 1`] = `
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  gap: 2.4rem;
+  gap: 0.8rem;
 }
 
-.c20 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  margin-bottom: 1.6rem;
+.c9 {
+  font-size: 1.6rem;
 }
 
-.c21 {
-  font-size: 1.8rem;
+.c10 {
+  resize: vertical;
+  width: 100%;
+  min-height: 7.4rem;
+  max-height: 26rem;
+  padding: 0.8rem 1.12rem;
+  font-size: 1.4rem;
+  border: 1px solid #777777;
+  border-radius: 0.8rem;
+}
+
+.c10:focus {
+  box-shadow: #B8BEF3 0px 0px 0px 1.5px;
+}
+
+.c10::-webkit-input-placeholder {
+  color: #CCCCCC;
+}
+
+.c10::-moz-placeholder {
+  color: #CCCCCC;
+}
+
+.c10:-ms-input-placeholder {
+  color: #CCCCCC;
+}
+
+.c10::placeholder {
+  color: #CCCCCC;
+}
+
+.c3 {
+  font-size: 2.2rem;
   font-weight: 700;
-  color: #777777;
-}
-
-.c22 {
-  font-size: 1.8rem;
-  color: #777777;
-}
-
-.c23 {
-  font-size: 1.8rem;
+  color: #000000;
 }
 
 .c0 {
@@ -264,7 +148,32 @@ exports[`<Home /> should render the home correctly 1`] = `
   background: #FFFFFF;
 }
 
+.c11 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1.6rem;
+  -webkit-box-pack: end;
+  -webkit-justify-content: end;
+  -ms-flex-pack: end;
+  justify-content: end;
+  width: 100%;
+  margin-top: 1.6rem;
+}
+
 .c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.c2 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -286,152 +195,69 @@ exports[`<Home /> should render the home correctly 1`] = `
 <section
   class="c0 c1"
 >
-  <header
+  <div
+    data-testid="Header Mock"
+  />
+  <main
     class="c2"
   >
-    <h1
+    <h2
       class="c3"
-      color="secondary"
+      color="primary"
     >
-      CodeLeap Network
-    </h1>
-  </header>
-  <main
-    class="c4"
-  >
-    <div
-      class="c5"
+      What’s on your mind?
+    </h2>
+    <form
+      class="c4"
     >
       <div
-        class="c6"
+        class="c5"
       >
-        <h2
+        <label
+          class="c6"
+          for=":r0:"
+        >
+          Title
+        </label>
+        <input
+          aria-label="Title"
           class="c7"
-          color="primary"
-        >
-          What’s on your mind?
-        </h2>
-        <form
-          class="c8"
-        >
-          <div
-            class="c9"
-          >
-            <label
-              class="c10"
-              for=":r0:"
-            >
-              Title
-            </label>
-            <input
-              class="c11"
-              id=":r0:"
-              placeholder="Hello world"
-            />
-          </div>
-          <div
-            class="c12"
-          >
-            <label
-              class="c13"
-              for=":r1:"
-            >
-              Content
-            </label>
-            <textarea
-              class="c14"
-              id=":r1:"
-              placeholder="Content here"
-            />
-          </div>
-          <div
-            class="c15"
-          >
-            <button
-              class="c16"
-            >
-              create
-            </button>
-          </div>
-        </form>
+          id=":r0:"
+          name="title"
+          placeholder="Hello world"
+        />
       </div>
-    </div>
+      <div
+        class="c8"
+      >
+        <label
+          class="c9"
+          for=":r1:"
+        >
+          Content
+        </label>
+        <textarea
+          aria-label="Content"
+          class="c10"
+          id=":r1:"
+          name="content"
+          placeholder="Content here"
+        />
+      </div>
+      <div
+        class="c11"
+      >
+        <button
+          class="c12"
+          disabled=""
+        >
+          CREATE
+        </button>
+      </div>
+    </form>
     <div
-      class="c5"
-    >
-      <div
-        class="c17"
-      >
-        <h2
-          class="c3"
-          color="secondary"
-        >
-          My First Post at CodeLeap Network!
-        </h2>
-        <div
-          class="c18"
-        >
-          <div
-            class="c19"
-          >
-            <svg
-              height="24"
-              viewBox="0 0 24 24"
-              width="24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zm2.46-7.12l1.41-1.41L12 12.59l2.12-2.12l1.41 1.41L13.41 14l2.12 2.12l-1.41 1.41L12 15.41l-2.12 2.12l-1.41-1.41L10.59 14l-2.13-2.12zM15.5 4l-1-1h-5l-1 1H5v2h14V4z"
-                fill="currentColor"
-              />
-            </svg>
-          </div>
-          <div
-            class="c19"
-          >
-            <svg
-              height="24"
-              viewBox="0 0 24 24"
-              width="24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="m7 17.013l4.413-.015l9.632-9.54c.378-.378.586-.88.586-1.414s-.208-1.036-.586-1.414l-1.586-1.586c-.756-.756-2.075-.752-2.825-.003L7 12.583v4.43zM18.045 4.458l1.589 1.583l-1.597 1.582l-1.586-1.585l1.594-1.58zM9 13.417l6.03-5.973l1.586 1.586l-6.029 5.971L9 15.006v-1.589z"
-                fill="currentColor"
-              />
-              <path
-                d="M5 21h14c1.103 0 2-.897 2-2v-8.668l-2 2V19H8.158c-.026 0-.053.01-.079.01c-.033 0-.066-.009-.1-.01H5V5h6.847l2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2z"
-                fill="currentColor"
-              />
-            </svg>
-          </div>
-        </div>
-      </div>
-      <div
-        class="c6"
-      >
-        <div
-          class="c20"
-        >
-          <strong
-            class="c21"
-          >
-            @
-            GabrielGuedess
-          </strong>
-          <span
-            class="c22"
-          >
-            an hour ago
-          </span>
-        </div>
-        <span
-          class="c23"
-        >
-          Text
-        </span>
-      </div>
-    </div>
+      data-testid="Post Mock"
+    />
   </main>
 </section>
 `;
