@@ -4,8 +4,8 @@ env:
   URLS: 'https://code-leap-gabrielguedess.vercel.app https://code-leap-gabrielguedess.vercel.app/posts'
   TOKEN_NAME: 'LIGHTHOUSE_BADGER_TOKEN'
   REPO_BRANCH: '${{ github.repository }} main'
-  BADGES_ARGS: '-b pagespeed -o lighthouse_results -r'
-  AUDIT_TYPE: 'both'
+  BADGES_ARGS: '-b pagespeed -o .github/assets/lighthouse -r'
+  AUDIT_TYPE: 'desktop'
   MOBILE_LIGHTHOUSE_PARAMS: '--throttling.cpuSlowdownMultiplier=2'
   DESKTOP_LIGHTHOUSE_PARAMS: '--preset=desktop --throttling.cpuSlowdownMultiplier=1'
   USER_NAME: 'github-actions[bot]'
@@ -13,8 +13,8 @@ env:
   COMMIT_MESSAGE: 'docs: Lighthouse-Badger[bot]: Results Added'
 
   DEFAULT_REPO_BRANCH: '${{ github.repository }} main'
-  DEFAULT_BADGES_ARGS: '-b pagespeed -o lighthouse_results -r'
-  DEFAULT_AUDIT_TYPE: 'both'
+  DEFAULT_BADGES_ARGS: '-b pagespeed -o .github/assets/lighthouse -r'
+  DEFAULT_AUDIT_TYPE: 'desktop'
   DEFAULT_MOBILE_LIGHTHOUSE_PARAMS: '--throttling.cpuSlowdownMultiplier=2'
   DEFAULT_DESKTOP_LIGHTHOUSE_PARAMS: '--preset=desktop --throttling.cpuSlowdownMultiplier=1'
   DEFAULT_USER_NAME: 'github-actions[bot]'
@@ -41,11 +41,11 @@ on:
       badges_args:
         description: 'Badges arguments: -b, -l, -o, -r, -s'
         required: true
-        default: '-b pagespeed -o lighthouse_results -r'
+        default: '-b pagespeed -o .github/assets/lighthouse -r'
       audit_type:
         description: 'Audit type: mobile, desktop, both or both_p'
         required: true
-        default: 'both'
+        default: 'desktop'
       mobile_lighthouse_params:
         description: 'Lighthouse parameters mobile audit'
         required: true
@@ -80,15 +80,18 @@ jobs:
           echo "BRANCH=$BRANCH" >> $GITHUB_ENV
         env:
           REPO_BRANCH: ${{ github.event.inputs.repo_branch || env.REPO_BRANCH || env.DEFAULT_REPO_BRANCH }}
+
       - uses: actions/checkout@v3
         with:
           repository: ${{ env.REPOSITORY }}
           token: ${{ secrets[github.event.inputs.token_name] || secrets[env.TOKEN_NAME] }}
           ref: ${{ env.BRANCH }}
+
       - uses: actions/checkout@v3
         with:
           repository: 'myactionway/lighthouse-badges'
           path: temp_lighthouse_badges_nested
+
       - uses: myactionway/lighthouse-badger-action@v2.2
         with:
           urls: ${{ github.event.inputs.urls || env.URLS }}
