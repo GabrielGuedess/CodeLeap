@@ -10,7 +10,9 @@
 [![wakatime](https://wakatime.com/badge/github/GabrielGuedess/CodeLeap.svg)](https://wakatime.com/badge/github/GabrielGuedess/CodeLeap)
 
 <!-- PROJECT LOGO -->
+
 <br />
+
 <div align="center">
   <a href="#">
     <img src="https://codeleap.co.uk/images/favicon.png" alt="Logo">
