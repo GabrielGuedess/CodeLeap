@@ -37,6 +37,7 @@
       <a href="#about-the-project">About The Project</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
+        <li><a href="#storybook">Storybook</a></li>
         <li><a href="#lighthouse">Lighthouse</a></li>
         <li><a href="#codecov">Codecov</a></li>
       </ul>
@@ -78,6 +79,30 @@ Frameworks/libraries used to initialize the project.
 - ![Jest](https://img.shields.io/badge/-jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white)
 - ![Testing-Library](https://img.shields.io/badge/-TestingLibrary-%23E33332?style=for-the-badge&logo=testing-library&logoColor=white)
 - ![ESLint](https://img.shields.io/badge/ESLint-4B3263?style=for-the-badge&logo=eslint&logoColor=white)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- Storybook -->
+
+### Storybook
+
+Storybook is a frontend workshop for building UI components and pages in isolation. Thousands of teams use it for UI development, testing, and documentation.
+
+<br />
+
+ ```sh
+ yarn storybook
+ ```
+ 
+  ```sh
+ yarn build-storybook
+ ```
+
+<div align="center">
+  <a href="https://codeleap-network-gabrielguedess.netlify.app">
+    Storybook Deploy
+  </a>
+</div>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
