@@ -5,6 +5,7 @@
 [![Codecov](https://codecov.io/gh/GabrielGuedess/CodeLeap/branch/main/graph/badge.svg?token=QRamhnvJN5)](https://codecov.io/gh/GabrielGuedess/CodeLeap)
 ![Vercel](https://vercelbadge.vercel.app/api/GabrielGuedess/CodeLeap)
 ![CI](https://img.shields.io/github/actions/workflow/status/GabrielGuedess/CodeLeap/ci.yml?label=CI)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/bb238b24-4698-42cd-a6c3-d19bb7ab1a5b/deploy-status)](https://codeleap-network-gabrielguedess.netlify.app)
 ![Top](https://img.shields.io/github/languages/top/GabrielGuedess/CodeLeap)
 ![Code](https://img.shields.io/github/repo-size/GabrielGuedess/CodeLeap)
 [![wakatime](https://wakatime.com/badge/github/GabrielGuedess/CodeLeap.svg)](https://wakatime.com/badge/github/GabrielGuedess/CodeLeap)
